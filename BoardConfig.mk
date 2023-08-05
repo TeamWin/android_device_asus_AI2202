@@ -36,6 +36,9 @@ TW_CUSTOM_BATTERY_POS := left
 TW_CUSTOM_CPU_POS := right
 TW_STATUS_ICONS_ALIGN := center
 
+# Vibrator
+TW_SUPPORT_INPUT_AIDL_HAPTICS := true
+TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := true
 #
 # For local builds only
 #
