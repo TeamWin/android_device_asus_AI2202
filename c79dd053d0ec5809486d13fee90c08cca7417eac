@@ -1,4 +1,22 @@
 {
   "pushCert": "certificate version 0.1\npusher 1F5A13F735F72322 1691594336 -0400\npushee ssh://gerrit.twrp.me:29418/android_device_asus_AI2202\nnonce 1691594336-FD8B2B82F3E6D3FA893DD05E02E43FD41E649892\n\n0000000000000000000000000000000000000000 c79dd053d0ec5809486d13fee90c08cca7417eac refs/for/android-12.1\n-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEE8Y8VaNp/zKXnXxPsH1oT9zX3IyIFAmTTrmAACgkQH1oT9zX3\nIyJS2g//XF1kEPpNyYBWgAzBgVzuVm3xtaoKnbbafMVXUhy9Z0IelRqdl8G69Oyk\nxu/BihhNRfZxa3dn19UraeqMiaKg0K+/OCoU0746mMmGvyhq/VhiTB/41MelCOe/\nt3LQn/ivMd4kn1CRzwxsmaWb/1IuITkxw8cbjE+w5DP+YjeVCeVrTK7dJmU/eYXC\nX1Hu+8AX8m1GjkJDXgd4EXgWEQKDNuCWOQP3rU7guZUuSTRmupxujRRC1oaNZmiF\nsH6ACJKauLjg0x1+1iMOOdblb1upbRGAZ7GQ0Zip1iw9pfjZzc9ptgFxQFNX2S9h\nmz6qkDMoXDPaIBhsHtMi352kr7f3qDMXyFDEMA4xLQIENo2WJ0rkFMTvmqkSQkR4\nBHvybNMXMh8nSwYpmW5sngoxv4ZoYhpue0UAp8eBku/QX7GW6SmCntvFSeqLTmFW\nCdmG5hWgzal33dTSamfRaw9vwRN/duuPLFpAML+u92LDBBseNHrWq1IWX0qUvBrJ\n5KUI5ombAZJQ/9Sbdks5aAQtntgoD3Jzij2p8RnS9ybFRiabkZZP51wcUnmLMe/f\nnU9BUFCFUmGl74BJimIKa+gzJWCn1RRYboEJOMJBohJ+X62nXkk9V033RU8Qv3Uc\nzoXGFig/+oAh828e1x8gTsPT0LKSsZmsNcIP9MrE0Yr31Cj6qUo\u003d\n\u003dYCYW\n-----END PGP SIGNATURE-----\n",
-  "comments": []
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "31af7b35_87fa49ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 6
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2023-08-09T15:23:05Z",
+      "side": 1,
+      "message": "Patch is now self-contained and doesn\u0027t rely on the upstream patch to be merged for full functionality.",
+      "revId": "c79dd053d0ec5809486d13fee90c08cca7417eac",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    }
+  ]
 }
