@@ -26,3 +26,6 @@ $(call inherit-product, $(COMMON_PATH)/device-common.mk)
 # Prebuit
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(DEVICE_PATH)/prebuilt/recovery,recovery/root)
+
+# Property Overrides
+    PRODUCT_PROPERTY_OVERRIDES += ro.boot.product.vendor.sku=cape
