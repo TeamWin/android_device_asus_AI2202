@@ -36,17 +36,15 @@ TW_H_OFFSET := -25
 TW_CUSTOM_CPU_POS := 180
 TW_CUSTOM_BATTERY_POS := 720
 
-# Vibrator
-TW_SUPPORT_INPUT_AIDL_HAPTICS := true
-TW_SUPPORT_INPUT_AIDL_HAPTICS_FIX_OFF := true
-
 #
 # For local builds only
 #
 # Custom TWRP Versioning
-ifneq ($(wildcard device/common/version-info/.),)
-    # device version is optional - the default value is "0" if nothing is set in device tree
-    CUSTOM_TWRP_DEVICE_VERSION := 0
+ifneq ($(USE_CUSTOM_VERSION),)
+    ifneq ($(wildcard device/common/version-info/.),)
+        # device version is optional - the default value is "0" if nothing is set in device tree
+        CUSTOM_TWRP_DEVICE_VERSION := 0
+    endif
 endif
 #
 # end local build flags
